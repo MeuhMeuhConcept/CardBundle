@@ -1,0 +1,27 @@
+{
+    "name": "mmc/card-bundle",
+    "license": "proprietary",
+    "type": "bundle",
+    "description": "Card implementation for MMC",
+    "authors": [
+        {
+            "name": "Jean-Noël Germon",
+            "email": "jn.germon@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MMC\\Card\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MMC\\Card\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "~7.0"
+    },
+    "require-dev": {
+    }
+}
