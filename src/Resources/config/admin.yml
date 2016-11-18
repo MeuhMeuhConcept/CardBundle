@@ -1,0 +1,6 @@
+services:
+    mmc_card.admin.manager.card:
+        class: 'MMC\CardBundle\Manager\CardModelManager'
+        arguments:
+            - '@doctrine'
+            - '@mmc_card.CardProcessor'

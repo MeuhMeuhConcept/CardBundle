@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="Uuid">
+                <source>Uuid</source>
+                <target>Uuid</target>
+            </trans-unit>
+            <trans-unit id="Card Guest List">
+                <source>Card Guest List</source>
+                <target>Liste des invités</target>
+            </trans-unit>
+            <trans-unit id="CardGuest">
+                <source>CardGuest</source>
+                <target>Invité</target>
+            </trans-unit>
+            <trans-unit id="Name">
+                <source>Name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="Univers">
+                <source>Univers</source>
+                <target>Univers</target>
+            </trans-unit>
+            <trans-unit id="Vignette">
+                <source>Vignette</source>
+                <target>Vignette</target>
+            </trans-unit>
+            <trans-unit id="Has Valid">
+                <source>Has Valid</source>
+                <target>Validé</target>
+            </trans-unit>
+            <trans-unit id="Has Draft">
+                <source>Has Draft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+             <trans-unit id="Valid">
+                <source>Valid</source>
+                <target>Validé</target>
+            </trans-unit>
+             <trans-unit id="Draft">
+                <source>Draft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+            <trans-unit id="Action">
+                <source>Action</source>
+                <target>Action</target>
+            </trans-unit>
+            <trans-unit id="export.label_name">
+                <source>export.label_name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="export.label_isValid">
+                <source>export.label_isValid</source>
+                <target>Validé</target>
+            </trans-unit>
+            <trans-unit id="export.label_isDraft">
+                <source>export.label_isDraft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+            <trans-unit id="is_valid.no">
+                <source>is_valid.no</source>
+                <target>Non</target>
+            </trans-unit>
+            <trans-unit id="is_valid.yes">
+                <source>is_valid.yes</source>
+                <target>Oui</target>
+            </trans-unit>
+              <trans-unit id="is_draft.no">
+                <source>is_draft.no</source>
+                <target>Non</target>
+            </trans-unit>
+            <trans-unit id="is_draft.yes">
+                <source>is_draft.yes</source>
+                <target>Oui</target>
+            </trans-unit>
+            <trans-unit id="name">
+                <source>name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="externalLink">
+                <source>externalLink</source>
+                <target>Lien externe</target>
+            </trans-unit>
+            <trans-unit id="biography">
+                <source>biography</source>
+                <target>Biographie</target>
+            </trans-unit>
+            <trans-unit id="vignette">
+                <source>vignette</source>
+                <target>Vignette</target>
+            </trans-unit>
+            <trans-unit id="cover_photo">
+                <source>cover_photo</source>
+                <target>Couverture</target>
+            </trans-unit>
+            <trans-unit id="guest_of_honor">
+                <source>guest_of_honor</source>
+                <target>Invité d'honneur</target>
+            </trans-unit>
+            <trans-unit id="this_friday">
+                <source>this_friday</source>
+                <target>Présence le Vendredi</target>
+            </trans-unit>
+            <trans-unit id="this_saturday">
+                <source>this_saturday</source>
+                <target>Présence le Samedi</target>
+            </trans-unit>
+            <trans-unit id="this_sunday">
+                <source>this_sunday</source>
+                <target>Présence le Dimanche</target>
+            </trans-unit>
+            <trans-unit id="univers">
+                <source>univers</source>
+                <target>Univers</target>
+            </trans-unit>
+            <trans-unit id="export.label_external_link">
+                <source>export.label_external_link</source>
+                <target>Lien externe</target>
+            </trans-unit>
+            <trans-unit id="export.label_univers">
+                <source>export.label_univers</source>
+                <target>Univers</target>
+            </trans-unit>
+            <trans-unit id="export.label_guestOfHonor">
+                <source>export.label_guestOfHonor</source>
+                <target>Invité d'honneur</target>
+            </trans-unit>
+            <trans-unit id="export.label_thisFriday">
+                <source>export.label_thisFriday</source>
+                <target>Présence le Vendredi</target>
+            </trans-unit>
+            <trans-unit id="export.label_thisSaturday">
+                <source>export.label_thisSaturday</source>
+                <target>Présence le Samedi</target>
+            </trans-unit>
+            <trans-unit id="export.label_thisSunday">
+                <source>export.label_thisSunday</source>
+                <target>Présence le Dimanche</target>
+            </trans-unit>
+            <trans-unit id="no">
+                <source>no</source>
+                <target>Non</target>
+            </trans-unit>
+            <trans-unit id="yes">
+                <source>yes</source>
+                <target>Oui</target>
+            </trans-unit>
+            <trans-unit id="fileThumb">
+                <source>fileThumb</source>
+                <target>Fichier vignette</target>
+            </trans-unit>
+            <trans-unit id="fileCover">
+                <source>fileCover</source>
+                <target>Ficher couverture</target>
+            </trans-unit>
+            <trans-unit id="altVignette">
+                <source>altVignette</source>
+                <target>Alt de la vignette</target>
+            </trans-unit>
+            <trans-unit id="altCoverPhoto">
+                <source>altCoverPhoto</source>
+                <target>Alt de la couverture</target>
+            </trans-unit>
+            <trans-unit id="status">
+                <source>status</source>
+                <target>État</target>
+            </trans-unit>
+            <trans-unit id="external_link">
+                <source>external_link</source>
+                <target>Lien externe</target>
+            </trans-unit>
+            <trans-unit id="coverPhoto">
+                <source>coverPhoto</source>
+                <target>Couverture</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

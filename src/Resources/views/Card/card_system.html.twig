@@ -1,0 +1,24 @@
+{% if card is cardInstance %}
+    {% set isValidVersion = card.valid and is_granted(constant('MMC\\CardBundle\\Security\\Voter\\CardVoter::VIEW_VALID'), card) %}
+    {% set isDraftVersion = card.draft and is_granted(constant('MMC\\CardBundle\\Security\\Voter\\CardVoter::VIEW_DRAFT'), card) %}
+    <div id="card-{{ card.uuid }}"
+        data-validate-url="{{ path('jtf2017_admin_card_'~(itemClass|lower)~'_validate_ajax', {id: card.id}) }}"
+        class="card {{ not isDraftVersion ? 'card-without-draft' : '' }}">
+        {% if isValidVersion %}
+            <div class="card-valid"
+                data-validation-status="{{ validate(card.valid)|length }}"
+            >
+                {% include template with { (itemName): card.valid } only %}
+            </div>
+        {% endif %}
+        {% if isDraftVersion %}
+            <div class="card-draft"
+                data-validation-status="{{ validate(card.draft)|length }}"
+            >
+                {% include template with { (itemName): card.draft } only %}
+            </div>
+        {% endif %}
+    </div>
+{% else %}
+    {% include template with { (itemName): card } only %}
+{% endif %}

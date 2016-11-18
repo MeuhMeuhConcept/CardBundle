@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="Uuid">
+                <source>Uuid</source>
+                <target>Uuid</target>
+            </trans-unit>
+            <trans-unit id="Card Exponent List">
+                <source>Card Exponent List</source>
+                <target>Liste des exposants</target>
+            </trans-unit>
+            <trans-unit id="CardExponent">
+                <source>CardExponent</source>
+                <target>Exposant</target>
+            </trans-unit>
+            <trans-unit id="Name">
+                <source>Name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="Vignette">
+                <source>Vignette</source>
+                <target>Vignette</target>
+            </trans-unit>
+            <trans-unit id="Univers">
+                <source>Univers</source>
+                <target>Univers</target>
+            </trans-unit>
+            <trans-unit id="Has Valid">
+                <source>Has Valid</source>
+                <target>Validé</target>
+            </trans-unit>
+            <trans-unit id="Has Draft">
+                <source>Has Draft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+             <trans-unit id="Valid">
+                <source>Valid</source>
+                <target>Validé</target>
+            </trans-unit>
+             <trans-unit id="Draft">
+                <source>Draft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+            <trans-unit id="Action">
+                <source>Action</source>
+                <target>Action</target>
+            </trans-unit>
+            <trans-unit id="export.label_name">
+                <source>export.label_name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="export.label_descriptif">
+                <source>export.label_descriptif</source>
+                <target>Descriptif</target>
+            </trans-unit>
+            <trans-unit id="export.label_website">
+                <source>export.label_website</source>
+                <target>Site internet</target>
+            </trans-unit>
+            <trans-unit id="export.label_email">
+                <source>export.label_email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="export.label_stand">
+                <source>export.label_stand</source>
+                <target>Stand</target>
+            </trans-unit>
+            <trans-unit id="export.label_level">
+                <source>export.label_level</source>
+                <target>Niveau</target>
+            </trans-unit>
+            <trans-unit id="export.label_isValid">
+                <source>export.label_isValid</source>
+                <target>Validé</target>
+            </trans-unit>
+            <trans-unit id="export.label_isDraft">
+                <source>export.label_isDraft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+            <trans-unit id="is_valid.no">
+                <source>is_valid.no</source>
+                <target>Non</target>
+            </trans-unit>
+            <trans-unit id="is_valid.yes">
+                <source>is_valid.yes</source>
+                <target>Oui</target>
+            </trans-unit>
+              <trans-unit id="is_draft.no">
+                <source>is_draft.no</source>
+                <target>Non</target>
+            </trans-unit>
+            <trans-unit id="is_draft.yes">
+                <source>is_draft.yes</source>
+                <target>Oui</target>
+            </trans-unit>
+            <trans-unit id="name">
+                <source>name</source>
+                <target>Nom</target>
+            </trans-unit>
+            <trans-unit id="descriptif">
+                <source>descriptif</source>
+                <target>Descriptif</target>
+            </trans-unit>
+            <trans-unit id="website">
+                <source>website</source>
+                <target>Site internet</target>
+            </trans-unit>
+            <trans-unit id="vignette">
+                <source>vignette</source>
+                <target>Vignette</target>
+            </trans-unit>
+            <trans-unit id="Email">
+                <source>Email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="Stand">
+                <source>Stand</source>
+                <target>Stand</target>
+            </trans-unit>
+            <trans-unit id="Level">
+                <source>Level</source>
+                <target>Niveau</target>
+            </trans-unit>
+            <trans-unit id="email">
+                <source>email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="stand">
+                <source>stand</source>
+                <target>Stand</target>
+            </trans-unit>
+            <trans-unit id="level">
+                <source>level</source>
+                <target>Niveau</target>
+            </trans-unit>
+            <trans-unit id="univers">
+                <source>univers</source>
+                <target>Univers</target>
+            </trans-unit>
+            <trans-unit id="file">
+                <source>file</source>
+                <target>Fichier</target>
+            </trans-unit>
+            <trans-unit id="atl">
+                <source>alt</source>
+                <target>Alt</target>
+            </trans-unit>
+            <trans-unit id="status">
+                <source>status</source>
+                <target>État</target>
+            </trans-unit>
+            <trans-unit id="removeFile">
+                <source>removeFile</source>
+                <target>Supprimer la vignette</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

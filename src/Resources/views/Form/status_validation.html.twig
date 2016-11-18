@@ -1,0 +1,15 @@
+{% block status_validation_widget -%}
+    {% if value is not empty  and card.id is not null %}
+        {% set item = card.getItemsByStatus(value).first %}
+        {% set errors = validate(item) %}
+        {% if errors|length %}
+            <span class="label label-warning">{{ 'item.invalid'|trans({}, 'SonataAdminBundle')}}</span>
+            <br />
+            {{ errors|raw }}
+        {% else %}
+            <span class="label label-success">{{ 'item.valid'|trans({}, 'SonataAdminBundle')}}</span>
+        {% endif %}
+    {% else %}
+        <span class="label label-default">{{ 'item.creating'|trans({}, 'SonataAdminBundle')}}</span>
+    {% endif %}
+{%- endblock %}

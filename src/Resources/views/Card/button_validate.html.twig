@@ -1,0 +1,6 @@
+{% if admin.hasAccess('validate') and admin.hasRoute('validate') %}
+    <a class="sonata-action-element text-green" href="{{ admin.generateObjectUrl('validate', object) }}">
+        <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+        {{ 'link_action_validate'|trans({}, 'SonataAdminBundle') }}
+    </a>
+{% endif %}

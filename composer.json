@@ -11,12 +11,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "MMC\\Card\\": "src/"
+            "MMC\\CardBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MMC\\Card\\": "tests/"
+            "MMC\\CardBundle\\": "tests/"
         }
     },
     "require": {
