@@ -1,0 +1,17 @@
+{% extends 'SonataAdminBundle:CRUD:base_show_field.html.twig' %}
+
+{% block field %}
+{% spaceless %}
+    {% set item = object.getItemsByStatus(value).first %}
+    {% if item %}
+        {% set errors = validate(item) %}
+        {% if errors|length %}
+            <span class="label label-warning">{{ 'item.invalid'|trans({}, 'SonataAdminBundle')}}</span>
+            <br />
+            {{ errors|raw }}
+        {% else %}
+            <span class="label label-success">{{ 'item.valid'|trans({}, 'SonataAdminBundle')}}</span>
+        {% endif %}
+    {% endif %}
+{% endspaceless %}
+{%- endblock %}

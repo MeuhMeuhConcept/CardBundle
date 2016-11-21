@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="Uuid">
+                <source>Uuid</source>
+                <target>Uuid</target>
+            </trans-unit>
+            <trans-unit id="Card Actuality List">
+                <source>Card Actuality List</source>
+                <target>Liste des actualités</target>
+            </trans-unit>
+            <trans-unit id="CardActuality">
+                <source>CardActuality</source>
+                <target>Actualité</target>
+            </trans-unit>
+            <trans-unit id="Title">
+                <source>Title</source>
+                <target>Titre</target>
+            </trans-unit>
+            <trans-unit id="Published At">
+                <source>Published At</source>
+                <target>Date de publication</target>
+            </trans-unit>
+            <trans-unit id="Illustration">
+                <source>Illustration</source>
+                <target>Illustation</target>
+            </trans-unit>
+            <trans-unit id="Action">
+                <source>Action</source>
+                <target>Action</target>
+            </trans-unit>
+            <trans-unit id="Has Valid">
+                <source>Has Valid</source>
+                <target>Validé</target>
+            </trans-unit>
+            <trans-unit id="Has Draft">
+                <source>Has Draft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+             <trans-unit id="Valid">
+                <source>Valid</source>
+                <target>Validé</target>
+            </trans-unit>
+             <trans-unit id="Draft">
+                <source>Draft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+            <trans-unit id="export.label_title">
+                <source>export.label_title</source>
+                <target>Titre</target>
+            </trans-unit>
+            <trans-unit id="export.label_publishedAt">
+                <source>export.label_publishedAt</source>
+                <target>Date de publication</target>
+            </trans-unit>
+            <trans-unit id="export.label_isValid">
+                <source>export.label_isValid</source>
+                <target>Validé</target>
+            </trans-unit>
+            <trans-unit id="export.label_isDraft">
+                <source>export.label_isDraft</source>
+                <target>Brouillon</target>
+            </trans-unit>
+            <trans-unit id="export.label_contents">
+                <source>export.label_contents</source>
+                <target>Contenu</target>
+            </trans-unit>
+            <trans-unit id="export.label_alt">
+                <source>export.label_alt</source>
+                <target>Alt</target>
+            </trans-unit>
+            <trans-unit id="export.label_link">
+                <source>export.label_link</source>
+                <target>Lien</target>
+            </trans-unit>
+            <trans-unit id="is_valid.no">
+                <source>is_valid.no</source>
+                <target>Non</target>
+            </trans-unit>
+            <trans-unit id="is_valid.yes">
+                <source>is_valid.yes</source>
+                <target>Oui</target>
+            </trans-unit>
+              <trans-unit id="is_draft.no">
+                <source>is_draft.no</source>
+                <target>Non</target>
+            </trans-unit>
+            <trans-unit id="is_draft.yes">
+                <source>is_draft.yes</source>
+                <target>Oui</target>
+            </trans-unit>
+            <trans-unit id="title">
+                <source>title</source>
+                <target>Titre</target>
+            </trans-unit>
+            <trans-unit id="publishedAt">
+                <source>publishedAt</source>
+                <target>Date de publication</target>
+            </trans-unit>
+            <trans-unit id="contents">
+                <source>contents</source>
+                <target>Contenu</target>
+            </trans-unit>
+            <trans-unit id="illustration">
+                <source>illustration</source>
+                <target>Illustration</target>
+            </trans-unit>
+            <trans-unit id="alt">
+                <source>alt</source>
+                <target>Alt</target>
+            </trans-unit>
+            <trans-unit id="link">
+                <source>link</source>
+                <target>Lien</target>
+            </trans-unit>
+            <trans-unit id="file">
+                <source>file</source>
+                <target>Fichier</target>
+            </trans-unit>
+            <trans-unit id="target">
+                <source>target</source>
+                <target>Cible</target>
+            </trans-unit>
+            <trans-unit id="status">
+                <source>status</source>
+                <target>État</target>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

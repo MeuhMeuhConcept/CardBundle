@@ -1,0 +1,17 @@
+{% extends 'SonataAdminBundle:CRUD:base_show.html.twig' %}
+
+{% block show %}
+    {{ parent() }}
+
+    {% if object.draft.id|default(false) %}
+        <div class="sonata-ba-form-actions well well-small form-actions">
+            {% if admin.hasroute('validate') and admin.hasAccess('validate', object) %}
+                {% set errors = validate(object.draft) %}
+                 <a class="btn btn-success {{ errors|length ? 'disabled' : '' }}" href="{{ admin.generateObjectUrl('validate', object) }}"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> {{ 'link_action_validate'|trans({}, 'SonataAdminBundle') }}</a>
+            {% endif %}
+            {% if admin.hasroute('delete_draft') and admin.hasAccess('delete_draft', object) %}
+                <a class="btn btn-warning" href="{{ admin.generateObjectUrl('delete_draft', object) }}"><i class="fa fa-trash" aria-hidden="true"></i> {{ 'link_action_delete_draft'|trans({}, 'SonataAdminBundle') }}</a>
+            {% endif %}
+        </div>
+    {% endif %}
+{% endblock show %}
