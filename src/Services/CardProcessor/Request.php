@@ -2,9 +2,9 @@
 
 namespace MMC\CardBundle\Services\CardProcessor;
 
-use MMC\CardBundle\Model\Action;
 use MMC\CardBundle\Entity\Card;
 use MMC\CardBundle\Entity\CardItem;
+use MMC\CardBundle\Model\Action;
 
 class Request
 {
