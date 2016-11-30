@@ -2,7 +2,7 @@
     {% set isValidVersion = card.valid and is_granted(constant('MMC\\CardBundle\\Security\\Voter\\CardVoter::VIEW_VALID'), card) %}
     {% set isDraftVersion = card.draft and is_granted(constant('MMC\\CardBundle\\Security\\Voter\\CardVoter::VIEW_DRAFT'), card) %}
     <div id="card-{{ card.uuid }}"
-        data-validate-url="{{ path('jtf2017_admin_card_'~(itemClass|lower)~'_validate_ajax', {id: card.id}) }}"
+        data-validate-url="{{ path('mmc_admin_card_'~(itemClass|lower)~'_validate_ajax', {id: card.id}) }}"
         class="card {{ not isDraftVersion ? 'card-without-draft' : '' }}">
         {% if isValidVersion %}
             <div class="card-valid"
