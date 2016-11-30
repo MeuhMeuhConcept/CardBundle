@@ -18,7 +18,10 @@ Via composer
 ```bash
 composer require mmc/card-bundle
 ```
-
+Installs bundles web assets under a public web directory
+```bash
+bin/console assets:install
+```
 ## Configuration
 
 ### Add bundles
