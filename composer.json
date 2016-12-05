@@ -24,7 +24,7 @@
         "doctrine/collections": "1.*",
         "greg0ire/enum": "3.1.*",
         "mmc/sonata-admin-bundle" : "^1.0",
-        "ramsey/uuid": "^1.2",
+        "ramsey/uuid-doctrine": "^1.2",
         "sonata-project/admin-bundle": "^3.8",
         "symfony/config": "3.1.*",
         "symfony/dependency-injection": "3.1.*",
