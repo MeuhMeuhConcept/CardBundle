@@ -1,5 +1,5 @@
 {
-    "name": "mmc/card-bundle",
+    "name": "meuhmeuhconcept/card-bundle",
     "license": "proprietary",
     "type": "bundle",
     "description": "Card implementation for MMC",
@@ -23,7 +23,7 @@
         "php": "~7.0",
         "doctrine/collections": "1.*",
         "greg0ire/enum": "3.1.*",
-        "mmc/sonata-admin-bundle" : "^1.0",
+        "meuhmeuhconcept/sonata-admin-bundle" : "^1.0",
         "ramsey/uuid-doctrine": "^1.2",
         "sonata-project/admin-bundle": "^3.8",
         "symfony/config": "3.1.*",
