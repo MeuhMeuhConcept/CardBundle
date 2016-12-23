@@ -5,20 +5,11 @@ Implatation of CardBundle for MeuhMeuhConcept
 
 ## Installation
 
-Add the repository in composer.json
-```json
-"repositories" : [
-    {
-        "type" : "vcs",
-        "url" : "git@git.meuhmeuhconcept.fr:mmc/CardBundle.git"
-    }
-],
-```
-
 Via composer
 ```bash
-composer require mmc/card-bundle
+composer require meuhmeuhconcept/card-bundle
 ```
+
 Installs bundles web assets under a public web directory
 ```bash
 bin/console assets:install
