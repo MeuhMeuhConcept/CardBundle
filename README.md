@@ -1,7 +1,7 @@
-# MMC CardBundle
+# MeuhMeuhConcept CardBundle
 [![Build Status](https://travis-ci.org/MeuhMeuhConcept/CardBundle.svg?branch=master)](https://travis-ci.org/MeuhMeuhConcept/CardBundle)
 
-Implatation of CardBundle for MMC
+Implatation of CardBundle for MeuhMeuhConcept
 
 ## Installation
 
