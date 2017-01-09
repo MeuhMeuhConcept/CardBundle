@@ -7,3 +7,6 @@
 
 # PHP CS
 .php_cs.cache
+
+# NPM
+/src/Resources/web/node_modules/*
