@@ -1,0 +1,20 @@
+{
+  "name": "card-bundle",
+  "version": "1.0.0",
+  "description": "card",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeuhMeuhConcept/CardBundle.git"
+  },
+  "author": "",
+  "license": "private",
+  "dependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-jsmin": "~0.1.5",
+    "gulp-rename": "~1.2.2"
+  }
+}
