@@ -16,6 +16,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "MMC\\CardBundle\\Features\\": "Features/",
             "MMC\\CardBundle\\": "tests/"
         }
     },
@@ -25,22 +26,29 @@
         "greg0ire/enum": "3.1.*",
         "meuhmeuhconcept/sonata-admin-bundle" : "^1.0",
         "ramsey/uuid-doctrine": "^1.2",
+        "sensio/framework-extra-bundle": "3.0.18",
         "sonata-project/admin-bundle": "^3.8",
         "symfony/config": "3.1.*",
         "symfony/dependency-injection": "3.1.*",
         "symfony/doctrine-bridge": "3.1.*",
         "symfony/form": "3.1.*",
+        "symfony/framework-bundle": "3.1.*",
         "symfony/http-foundation": "3.1.*",
         "symfony/http-kernel": "3.1.*",
+        "symfony/monolog-bundle": "2.12.1",
         "symfony/options-resolver": "3.1.*",
         "symfony/options-resolver": "3.1.*",
         "symfony/property-access": "3.1.*",
         "symfony/security-core": "3.1.*",
         "symfony/translation": "3.1.*",
+        "symfony/twig-bundle": "3.1.*",
         "symfony/validator": "3.1.*"
     },
     "require-dev": {
         "behat/behat": "^3.1",
+        "behat/symfony2-extension": "^2.1",
+        "behat/mink-browserkit-driver": "^1.3",
+        "knplabs/friendly-contexts": "dev-master",
         "doctrine/annotations": "^1.2",
         "friendsofphp/php-cs-fixer": "^1.12",
         "phpunit/phpunit": "~5.6"
