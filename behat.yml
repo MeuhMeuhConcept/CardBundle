@@ -1,0 +1,21 @@
+default:
+    extensions:
+        Behat\Symfony2Extension:
+            kernel:
+                env: "test"
+                debug: "true"
+                path: Features/Fixtures/Project/app/AppKernel.php
+                bootstrap: Features/Fixtures/Project/app/bootstrap.php
+        Behat\MinkExtension:
+            sessions:
+                my_session:
+                    symfony2: ~
+    suites:
+        cardActuality:
+            type: symfony_bundle
+            bundle: MMCCardBundle
+            contexts:
+                - MMC\CardBundle\Features\Context\CardProcessorContext:
+                    chainCardProcessor: '@mmc_card.ChainCardProcessor'
+            paths:
+                - Features/cardProcessor.feature
