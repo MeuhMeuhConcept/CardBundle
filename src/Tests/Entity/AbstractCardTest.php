@@ -58,7 +58,7 @@ class AbstractCardTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException TypeError
+     * @expectedException \TypeError
      */
     public function testAddItemTypeError()
     {
@@ -68,7 +68,7 @@ class AbstractCardTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException UnexpectedValueException
+     * @expectedException \UnexpectedValueException
      */
     public function testAddItemUnexcepted()
     {

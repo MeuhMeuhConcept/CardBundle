@@ -22,10 +22,15 @@ console: ## Connect to console container
 vendor/autoload.php: ## Install composer dependencies
 	composer install
 
-unit-test: vendor/autoload.php
+unitTest: vendor/autoload.php
 	${bin_dir}/phpunit --configuration .
 
-test: unit-test ## Launch tests
+behat_options=-vv --strict --stop-on-failure --format=progress
+
+functionalTest:	vendor/autoload.php
+	${bin_dir}/behat ${behat_options}
+
+test: unitTest functionalTest ## Launch tests
 
 cs-check: vendor/autoload.php ## Check PHP CS
 	${bin_dir}/php-cs-fixer --version

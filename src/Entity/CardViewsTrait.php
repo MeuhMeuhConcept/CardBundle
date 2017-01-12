@@ -13,6 +13,8 @@ trait CardViewsTrait
 
     private $lastActiveViewOptions;
 
+    abstract public function getId();
+
     abstract public function getItemsByStatus($status);
 
     abstract public function getSupportedClass();
