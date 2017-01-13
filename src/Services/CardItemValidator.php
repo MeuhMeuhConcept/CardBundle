@@ -22,7 +22,11 @@ class CardItemValidator
 
     public function validate(CardItem $item, $formatError = true, $separator = '<br />')
     {
-        $errors = $this->validator->validate($item, null, ['Default', 'validate']);
+        $errors = $this->validator->validate(
+            $item,
+            null,
+            $item->getValidationGroups()
+        );
 
         if (count($errors)) {
             if ($formatError) {
