@@ -13,4 +13,6 @@ interface CardItem
     public function setCard(Card $card = null);
 
     public function getCard();
+
+    public function getValidationGroups();
 }

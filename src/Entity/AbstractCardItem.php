@@ -54,4 +54,9 @@ abstract class AbstractCardItem implements CardItem
 
         return $this;
     }
+
+    public function getValidationGroups()
+    {
+        return ['Default', 'validate'];
+    }
 }
