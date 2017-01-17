@@ -313,7 +313,7 @@ abstract class DTOCardAdmin extends AbstractAdmin
     public function getAccessMapping()
     {
         return array_merge(parent::getAccessMapping(), [
-            'validate' => 'EDIT',
+            'validate' => 'VALIDATE',
             'delete_draft' => 'EDIT',
         ]);
     }
