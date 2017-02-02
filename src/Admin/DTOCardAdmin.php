@@ -4,8 +4,6 @@ namespace MMC\CardBundle\Admin;
 
 use MMC\CardBundle\Model\Status;
 use MMC\SonataAdminBundle\Admin\AbstractAdmin;
-use MMC\SonataAdminBundle\Datagrid\FieldDescriptionCollection;
-use MMC\SonataAdminBundle\Exporter\Source\DataSourceIterator;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Route\RouteCollection;
 use Sonata\AdminBundle\Show\ShowMapper;
@@ -47,28 +45,6 @@ abstract class DTOCardAdmin extends AbstractAdmin
         return [];
     }
 
-    /**
-     * {@inheritdoc}
-     */
-    public function getDataSourceIterator()
-    {
-        $datagrid = $this->getDatagrid();
-        $datagrid->buildPager();
-
-        $translator = $this->getConfigurationPool()
-            ->getContainer()->get('translator');
-
-        $dataSourceIterator = new DataSourceIterator(
-            $datagrid->getQuery(),
-            $this->buildExportFields(),
-            $translator,
-            500 // Size of pagination (query->limit)
-            //     high number => less request but bigger data resultset
-        );
-
-        return $dataSourceIterator;
-    }
-
     public function createQuery($context = 'list')
     {
         $query = parent::createQuery($context);
@@ -95,25 +71,6 @@ abstract class DTOCardAdmin extends AbstractAdmin
         $query->select($queryChain);
 
         return $query;
-    }
-
-    protected function buildExportFields()
-    {
-        $columns = $this->getExportFields();
-
-        $fieldCollection = new FieldDescriptionCollection([
-            'label_pattern' => 'export.label_%s',
-            'translation_domain' => $this->getTranslationDomain(),
-        ]);
-
-        foreach ($columns as $name => $options) {
-            if (is_string($options)) {
-                $options = ['label' => $options];
-            }
-            $fieldCollection->addField($name, $options);
-        }
-
-        return $fieldCollection;
     }
 
     public function getUrlsafeIdentifier($entity)
