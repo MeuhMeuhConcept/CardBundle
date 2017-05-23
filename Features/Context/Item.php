@@ -3,6 +3,7 @@
 namespace MMC\CardBundle\Features\Context;
 
 use MMC\CardBundle\Entity\AbstractCardItem;
+use MMC\CardBundle\Entity\CardItem;
 
 class Item extends AbstractCardItem
 {
@@ -25,11 +26,9 @@ class Item extends AbstractCardItem
         return $this;
     }
 
-    public function duplicate()
+    public function copy(CardItem $item)
     {
-        $item = new self();
-        $item->setCard($this->card)
-                ->setTitle($this->title);
+        $this->setTitle($item->getTitle());
 
         return $item;
     }

@@ -8,7 +8,18 @@ abstract class AbstractCardItem implements CardItem
 {
     abstract public function getSupportedCardClass();
 
-    abstract public function duplicate();
+    final public function duplicate()
+    {
+        $class = get_class($this);
+        $duplicate = new $class();
+        $duplicate->setCard($this->getCard());
+
+        $duplicate->copy($this);
+
+        return $duplicate;
+    }
+
+    abstract public function copy(CardItem $item);
 
     protected $status;
 

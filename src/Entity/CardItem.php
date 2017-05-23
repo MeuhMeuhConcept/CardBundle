@@ -10,6 +10,8 @@ interface CardItem
 
     public function duplicate();
 
+    public function copy(CardItem $item);
+
     public function setCard(Card $card = null);
 
     public function getCard();
